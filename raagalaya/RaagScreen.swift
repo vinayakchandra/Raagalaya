@@ -3,7 +3,7 @@ import SwiftUI
 struct RaagScreen: View {
   @ObservedObject var state: AppState
   @State private var selectedGroup = "All"
-  @State private var spotlightMode: RaagSpotlightMode = .all
+  @State private var showFavorites = false
   @State private var selectedHeroRaag: RaagPojo?
   @Namespace private var tileAnimation
 
@@ -18,9 +18,6 @@ struct RaagScreen: View {
             selectedHeroRaag = raag
           }
           .sectionCardStyle()
-
-          controlsCard
-            .sectionCardStyle()
 
           groupChips
 
@@ -52,8 +49,22 @@ struct RaagScreen: View {
     }
     .navigationTitle("Raag Library")
     .searchable(text: $state.raagFilter, prompt: "Search raag, thaat, or time")
+    .toolbar {
+      ToolbarItem(placement: .topBarLeading) {
+        Button {
+          showFavorites = true
+        } label: {
+          Label("Favorites", systemImage: "star.fill")
+            .foregroundStyle(AppTheme.accent)
+        }
+      }
+    }
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarBackground(AppTheme.backgroundTop.opacity(0.65), for: .navigationBar)
+    .sheet(isPresented: $showFavorites) {
+      FavoritesSheetView(tab: "raag")
+        .environmentObject(state)
+    }
     .sheet(item: $selectedHeroRaag) { raag in
       NavigationStack {
       RaagDetailView(raag: raag)
@@ -61,24 +72,6 @@ struct RaagScreen: View {
       }
     }
     .onChange(of: state.raagFilter) { _, _ in selectedGroup = "All" }
-  }
-
-  private var controlsCard: some View {
-    VStack(alignment: .leading, spacing: 10) {
-      Text("Discover")
-        .font(.subheadline.weight(.semibold))
-      Picker("Discover", selection: $spotlightMode) {
-        ForEach(RaagSpotlightMode.allCases, id: \.self) { mode in
-          Text(mode.title).tag(mode)
-        }
-      }
-      .pickerStyle(.segmented)
-
-      HStack(spacing: 8) {
-        statPill("Raags", "\(state.raagList.count)", icon: "music.note")
-        statPill("Favorites", "\(state.favoriteRaags.count)", icon: "star.fill")
-      }
-    }
   }
 
   private var groupChips: some View {
@@ -106,35 +99,13 @@ struct RaagScreen: View {
   }
 
   private var filteredEntries: [(key: String, items: [RaagPojo])] {
-    let base = availableEntries
+    let base = state.sortedThaathEntries
     guard selectedGroup != "All" else { return base }
     return base.filter { $0.key == selectedGroup }
   }
 
-  private var availableEntries: [(key: String, items: [RaagPojo])] {
-    switch spotlightMode {
-    case .all:
-      return state.sortedThaathEntries
-    case .favorites:
-      let grouped = Dictionary(grouping: state.favoriteRaags, by: { $0.scale.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? "Other" : $0.scale.capitalized })
-      return grouped.map { ($0.key, $0.value.sorted { $0.name < $1.name }) }
-        .sorted { $0.key.localizedCaseInsensitiveCompare($1.key) == .orderedAscending }
-    case .pinned:
-      return state.sortedThaathEntries.filter { state.isPinnedRaagGroup($0.key) }
-    }
-  }
-
   private var groupTitles: [String] {
-    ["All"] + availableEntries.map(\.key)
-  }
-
-  private func statPill(_ label: String, _ value: String, icon: String) -> some View {
-    Label("\(label): \(value)", systemImage: icon)
-      .font(.caption.weight(.semibold))
-      .padding(.horizontal, 10)
-      .padding(.vertical, 6)
-      .foregroundStyle(AppTheme.accent)
-      .background(AppTheme.accent.opacity(0.14), in: Capsule())
+    ["All"] + state.sortedThaathEntries.map(\.key)
   }
 }
 
@@ -172,19 +143,5 @@ private struct RaagGroupTile: View {
       RoundedRectangle(cornerRadius: 14, style: .continuous)
         .stroke(AppTheme.border, lineWidth: 1)
     )
-  }
-}
-
-private enum RaagSpotlightMode: CaseIterable {
-  case all
-  case favorites
-  case pinned
-
-  var title: String {
-    switch self {
-    case .all: return "All"
-    case .favorites: return "Favorites"
-    case .pinned: return "Pinned"
-    }
   }
 }

@@ -3,7 +3,7 @@ import SwiftUI
 struct SongScreen: View {
   @ObservedObject var state: AppState
   @State private var selectedGroup = "All"
-  @State private var spotlightMode: SongSpotlightMode = .all
+  @State private var showFavorites = false
   @Namespace private var tileAnimation
 
   var body: some View {
@@ -14,9 +14,6 @@ struct SongScreen: View {
       ScrollView {
         VStack(alignment: .leading, spacing: 14) {
           headerCard
-            .sectionCardStyle()
-
-          spotlightPicker
             .sectionCardStyle()
 
           groupChips
@@ -49,8 +46,22 @@ struct SongScreen: View {
     }
     .navigationTitle("Song Notebook")
     .searchable(text: $state.songFilter, prompt: "Search song, film, or raag")
+    .toolbar {
+      ToolbarItem(placement: .topBarLeading) {
+        Button {
+          showFavorites = true
+        } label: {
+          Label("Favorites", systemImage: "star.fill")
+            .foregroundStyle(AppTheme.accent)
+        }
+      }
+    }
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarBackground(AppTheme.backgroundTop.opacity(0.65), for: .navigationBar)
+    .sheet(isPresented: $showFavorites) {
+      FavoritesSheetView(tab: "song")
+        .environmentObject(state)
+    }
     .onChange(of: state.songFilter) { _, _ in selectedGroup = "All" }
   }
 
@@ -65,19 +76,6 @@ struct SongScreen: View {
         statPill("Favorites", "\(state.favoriteSongs.count)", icon: "star.fill")
         statPill("Pinned", "\(state.pinnedSongGroups.count)", icon: "pin.fill")
       }
-    }
-  }
-
-  private var spotlightPicker: some View {
-    VStack(alignment: .leading, spacing: 10) {
-      Text("Spotlight")
-        .font(.subheadline.weight(.semibold))
-      Picker("Spotlight", selection: $spotlightMode) {
-        ForEach(SongSpotlightMode.allCases, id: \.self) { mode in
-          Text(mode.title).tag(mode)
-        }
-      }
-      .pickerStyle(.segmented)
     }
   }
 
@@ -106,26 +104,13 @@ struct SongScreen: View {
   }
 
   private var filteredEntries: [(key: String, items: [SongPojo])] {
-    let base = availableEntries
+    let base = state.sortedRaagEntries
     guard selectedGroup != "All" else { return base }
     return base.filter { $0.key == selectedGroup }
   }
 
-  private var availableEntries: [(key: String, items: [SongPojo])] {
-    switch spotlightMode {
-    case .all:
-      return state.sortedRaagEntries
-    case .favorites:
-      let grouped = Dictionary(grouping: state.favoriteSongs, by: { $0.raag.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? "Unspecified" : $0.raag.capitalized })
-      return grouped.map { ($0.key, $0.value.sorted { $0.name < $1.name }) }
-        .sorted { $0.key.localizedCaseInsensitiveCompare($1.key) == .orderedAscending }
-    case .pinned:
-      return state.sortedRaagEntries.filter { state.isPinnedSongGroup($0.key) }
-    }
-  }
-
   private var groupTitles: [String] {
-    ["All"] + availableEntries.map(\.key)
+    ["All"] + state.sortedRaagEntries.map(\.key)
   }
 
   private func statPill(_ label: String, _ value: String, icon: String) -> some View {
@@ -172,19 +157,5 @@ private struct SongGroupTile: View {
       RoundedRectangle(cornerRadius: 14, style: .continuous)
         .stroke(AppTheme.border, lineWidth: 1)
     )
-  }
-}
-
-private enum SongSpotlightMode: CaseIterable {
-  case all
-  case favorites
-  case pinned
-
-  var title: String {
-    switch self {
-    case .all: return "All"
-    case .favorites: return "Favorites"
-    case .pinned: return "Pinned"
-    }
   }
 }
