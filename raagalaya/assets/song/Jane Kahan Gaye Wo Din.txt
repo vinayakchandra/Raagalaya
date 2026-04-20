@@ -1,0 +1,57 @@
+Notation:
+into music:
+S R g R S g S R P R
+S' R' g' R' S' g' S' R' P' R'
+P D n D P n D P D S' S' 
+P' D' n' D' P' n' D' P' D' S'' S''
+D' P' m' R' D'
+P' m' R' S' P'
+m' R' S' P g' P' g' R' g' P' g' R' S'
+
+Jane | Kahan | Gaye | Wo | Din
+S R | g P | D S’ | R’ | g’
+
+Kehtey | They | Teri | Yaad Mein
+R’ g’ R’ g’ | R’ | S’ DD | P P D
+
+Nazron | Ko | Hum..mm | Bichayen Ge
+P D | P | g R..g | S S P P P
+
+Chahe| Kahin | Bhi |Tum | Raho
+S R | g P | D S’ | R’ | g’
+
+Chahein | Ge | Tum Ko| Umra Bhar
+R’ g’ R’ g’ | R’ | S’ DD | P P D
+
+Tum | Ko | Na Bhool | Payen Ge
+P D | P | g R..g | S S P P P
+
+  
+Interlude:
+S R g R S g, R S R P R 
+S' R' g' R' S' g', R' S' R' P' R'
+P D N D P N, D P D S'
+
+Mere |Qadam | Jahaaan | Pare
+P P |P D P | P S’ D S’ | S’ S’
+
+Sadje| Kiye | The | Yaar | Ne
+R’ R’| R’ R’ | R’ S’ | S’ R’ g’ |R’ g’
+
+Mujhko | Ruulaaa | Ruulaa | Diyaaaaa
+g’ P’ P’| P’ P’ G’ | G’ G’ R’ | g’ g’ R’ S’
+
+Jaati | Hui | Bahaarr | Ne
+D S’ |D P R | g gRSS | S
+
+Jane ...
+
+D P D~P m N, D P m
+D P D~P m N, D P D P m
+R g m P m g m, P D N D m D P
+
+D P D~P m N, D P D P m
+R g m P m g m, m P D P g P m
+
+P', g' R' S' g', R' S' D S', P g R S P
+

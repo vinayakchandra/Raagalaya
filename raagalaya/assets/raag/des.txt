@@ -1,0 +1,137 @@
+राग :
+des
+
+स्वर:
+आरोह में गन्धार, धैवत वर्ज्य। निषाद दोनों। शेष शुद्ध स्वर।
+
+जाति:
+औढव - सम्पूर्ण वक्र
+
+थाट:
+खमाज
+
+वादी:
+रिषभ
+
+संवादी:
+पंचम
+
+समय:
+रात्रि का दूसरा प्रहर
+
+Mood:
+Romance, Devotion
+
+विश्रांति स्थान:
+रे; प; नि; सा'; - सा'; प; रे;
+
+मुख्य अंग:
+ध म ग रे; ग ,नि सा; रे म प नि; सा' रे' नि१ ध प
+
+आरोह:
+सा रे म प नि सा' 
+
+अवरोह:
+ सा' नि१ ध प ध म ग रे ग ,नि सा;
+
+ALAP :
+सा'नी - 'नीसा, 'नीसा रेम गरे ग\'नीसा, 'नीसा रेम गरे, रेपम रेमगरे ग\'नीसा |<br> 'नीसा रेम गरे, रेमप मप - मगरे, ग 'नीसा |<br> 'नीसारेमप <u>नी</u> धप, पध म गरे, रेमपम रेमगरे, रेग 'नी सा |<br> 'नीसारेमप मप, रे मपनी सा' नीसा' |<br> नीसा'रे'सा' रे'<u>नी</u> धप, धधपम प<u>नी</u>धप, पधम गरे, गरेसारे म गरे, ग 'नीसा |<br> 'नीसारेमप मपनीसा' नीसा' -, पनीसा'रे', सा'रे'म' ग'रे' ग' नीसा' |<br> पनीसा'रे' नीसा'रे' <u>नी</u> धप, धधपम पनीसा'- प<u>नी</u>धप पधमगरे, गगरेसा रेमप- रेमगरे, रेग 'नीसा |<br> 'नीसारेम गरे, रेमप<u>नी</u> धप, मपनीसा' - पनीसा'रे' म'ग'रे'ग' नीसा' - नीसा'रे' <u>नी</u> धप धमगरे ग 'नीसा ।
+1. S R S , S R M G R , P M G R , G .N S
+2. S R S , S .n .D .P , .P .N S , R P M G R , G .N S
+3. S R M P , M P n D P , M P N S. , S. n D P M G R , G .
+N S
+4. M P N , P N S. , S. - n D P , M P N S.
+5. M P N S. , S. R. S. , R. G. N S. , S. n D P , M P N S.
+6. M P N S. , N S. R. , M. G. R. , R. P. M. G. R. , G. N
+S. , S. n D P , M P n D P , D M G R , G .N S
+
+SARGAM GEET table:
+STHAI
+ S R - M | P N - N | S. - S. R. | S. n D P |
+ M G R - | n D P - | S. n D P | M G R S |
+ 0 - - - | 3 - - - | X - - - | 2 - - - |
+ 
+ANTARA
+ M P N N | S. - N S. | N S. R. - | M. G. R. S. |
+ S. R. S. N | S. n D P | S. n D P | M G R S |
+ 0 - - - | 3 - - - | X - - - | 2 - - - |
+
+
+बंदिश table:
+STHAI
+ PD n D P | M GR .N S | R M P S. | n D M P |
+ RA A R MA | CHA VE DE KHO | NA N D KO | - KU VA R |
+ 0 - - - | 3 - - - | X - - - | 2 - - - |
+ R M P N | S. n D P | PD n D P | M G .N S |
+ BE E CH DA | GA R MO RI | AA - J PHO | RI GA GA R |
+
+ANTARA
+ 0 - - - | 3 - - - | X - - - | 2 - - - |
+ M P N N | S. N S. S. | R. G. R. S. | R. N S. S. |
+ GW A L BA | A L SA NG | JA MU NA - | TA T PA R |
+ R. M. G. R. | N S. S. S. | S. n D P | M RG .N S |
+ DI THO RI KA | RA T DE KHO | SAN G BRI J | NA A - R |
+
+ALAP STHAI : AFTER - RAAR MACHAVE DEKHO.. table:
+
+ - 0 - - - | 3 - - - | X - - - | 2 - - - |
+ 1. S R M G | R - - - | R - P - | M G R S |
+2. SR MP N - | n D P - | DD PM P - | M G R S |
+
+SARGAM STHAI: AFTER - RAAR MACHAVE DEKHO.. table:
+ SR MP n D | P - MP NS. | R. n D P | M G R S |
+
+TAANE STHAI table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - - |
+1. RA A R MA | CHA VE DE KHO | SR MP nD MP | DP MG RG .NS|
+2. RA A R MA | CHA VE DE KHO | SR MP NS. R.S. | S.n DP MG RS |
+3. RA A R MA | CHA VE DE KHO | MP NS. R.M. G.R. | S.n DP MG RS |
+4. RA A R MA | SR M RM P | MP N PN S. | S.n DP MG RS |
+5. MP nn DP MP | NS. R.R. S.N DP | MP NS. R.M. G.R. | S.n DP MG RS |
+
+ALAP ANTARA : AFTER – GWAL BAAL SANG table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - - |
+ 1. M P N - | S. - - - | R. n D P | M P N S. |
+2. N S. R. - | M. G. R. - | S. n D P | M P N S. |
+TAANE ANTARA :
+ - 0 - - - | 3 - - - | X - - - | 2 - - - |
+1. GW A L BA | A L SA NG | S.n DP MG RS | SR MP N S. |
+2. GW A L BA | A L SA NG | S.R. S.n DP MG | RS SR MP NS. |
+3. GW A L BA | A L SA NG | R.M. G.R. S.n DP| MG RS MP NS. |
+4. GW A L BA | S.R. S. nS. n | Dn D PD P | MP M MG RS |
+5. RM P MG RS | PN S. S.n DP | NS. R. M.G. R.S. | S.n DP MG RS |
+
+बंदिश table:
+Sthayi 
+m 	G 	R 	G 	S 	R 	m 	P 	N 	= 	S' 	= 	n,D 	P 	P 	D 
+त 	ब 	सों 	चै 	ऽ 	न 	न 	हीं 	आ 	ऽ 	वे 	ऽ 	री,ऽ 	ऽ 	त 	ब 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+m 	G 	R 	G 	S 	R 	m 	P 	N 	= 	S' 	S' 	n,D 	P,D 	P 	= 
+सों 	ऽ 	ऽ। 	चै 	ऽ 	न 	न 	हीं 	आ 	ऽ 	वे 	स 	खी,ऽ 	ऽ,ऽ 	री 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+P 	n 	D 	P 	N,S' 	R',n 	D 	P 	m,P 	D,n 	P 	D 	m 	G 	R 	= 
+ज 	ब 	सों 	ऽ 	मैं,ऽ 	ऽ,ऽ 	नि 	र 	ख्यो,ऽ 	ऽ,ऽ 	नं 	द 	ला 	ऽ 	ला 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+R 	m 	R 	m 	P 	D 	m 	P 	N 	= 	S' 	= 	n,D 	P 	P 	D 
+को 	ऽ 	टि 	म 	द 	न 	छ 	बि 	छा 	ऽ 	वे 	ऽ 	री,ऽ 	ऽ 	त 	ब। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+
+Antara 
+m 	= 	m 	m 	P 	P 	N 	N 	S' 	S' 	S' 	S' 	R' 	N 	S' 	= 
+कुं 	ऽ 	ड 	ल 	ह 	ल 	त 	च 	ल 	त 	श्र 	व 	ण 	न 	में 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+P 	= 	N 	= 	S' 	S' 	S' 	S' 	P,N 	S',R' 	S' 	R' 	n 	D 	P 	= 
+ब 	ऽ 	न्सी 	ऽ 	म 	धु 	र 	ब 	जा,ऽ 	ऽ,ऽ 	ऽ 	ऽ 	वे 	ऽ 	री 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+P 	P 	R' 	R' 	R' 	R' 	R' 	= 	N 	N 	N 	N 	S' 	= 	S' 	S' 
+बा 	ज 	त 	च 	र 	न 	छुँ 	ऽ 	छ 	न 	न 	न 	नू 	ऽ 	पु 	र। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+P 	= 	N 	= 	S' 	S' 	S' 	S' 	P,N 	S',R' 	n 	D 	P 	= 	P 	D 
+ता 	ऽ 	हूँ 	ऽ 	प 	र 	मु 	स 	का,ऽ 	ऽ,ऽ 	वे 	ऽ 	री 	ऽ 	त 	ब। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 

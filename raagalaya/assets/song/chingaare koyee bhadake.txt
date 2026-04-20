@@ -1,0 +1,55 @@
+notation:
+
+Chingaaree koee bhadake
+S S g r S
+S g r S
+S S P 
+d  P  m 
+To saawan use buzaaye
+m  g m  g SA m 
+S r g r S n 
+Saawan jo agan lagaaye
+n  n  S n ,
+S S r S,
+S r g 
+Use kaun buzaaye
+g g g r m  g 
+r S S
+Use kaun buzaaye
+g g g r m  g 
+r S S
+
+Patazad jo baag ujaade
+S S g r S
+S g r S
+S S P 
+d  P  m 
+Wo baag bahaar khilaaye
+m  g m  g M m 
+S r g r S n 
+Jo baag bahaar mein ujade
+n  n  S n ,
+S S r S,
+S r g 
+Use kaun khilaaye?
+g g g r m  g 
+r S S
+
+Chingaaree koee bhadake
+S S g r S
+S g r S
+S S P 
+d  P  m 
+To saawan use buzaaye
+m  g m  g M m 
+S r g r S n 
+Saawan jo an n lan aye
+n  n  S n ,
+S S r S,
+S r g 
+Use kaun buzaaye
+g g g r m  g 
+r S S
+Use kaun buzaaye
+g g g r m  g 
+r S S

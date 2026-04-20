@@ -1,0 +1,177 @@
+Song     : Koi Jo Mila To Mujhe
+Movie    : Breathless
+Scale/Key: C
+
+Stanza 1
+Defaults : s r2 g3 m2 p d2 n3 (See Legend for more details) 
+
+Koi jo mila to mujhe aisa lagta tha jaise
+p d p  m p  d  p m   p d  p mp  d   p  m
+
+meri saari duniya main geeton ki rut aur
+p d  p  m  p d p  m    p~mp   m  g r g r
+
+rangon ki barkha hai khushbu ki aandhi hai
+p~mp   m  g rg   r   p  m p  m  g rg   r
+
+mahki hui si ab saaaari fizaayen hain 
+s rs  d d d  dd d~S~dd  p p  pm  g
+
+bahki hui si ab saaaari hawaayen hain 
+s rs  d d d  dd d~S~dd  p p  pm  g
+
+khoyi hui si ab saari dishaayen hain
+g md  m d n  dn RS n  n dn  n   g
+
+badli hui se ab saari adaayen hain 
+g md  m d n  dn RS n  nn  n   S
+
+jaagi ummengein hain, dhadak raha ahi dil 
+S  S  d S  S    d     S  S S d S   S  Sd
+
+saason main toofaan hain, hoton pe nagme hain
+S  S   d    S  S    S     nRn   R  R RR  R
+
+aakhon main sapne hain, sapnon main beete hue saare vo lamhe hain 
+nRn    R    R RR  R     G GR   S    n  R  Sn  d~pm  d  p~mg  p
+
+jab koi aaya tha, nazron pe chhaya tha 
+p p p m pdp  m    p dp   m  p d p  m
+
+dil main samaya tha, kaise main bataun tumhe
+p d p    m pdp  m    p  m  p    m g r  g  r
+
+kaisa use paaya tha, pyaare se chehre pe 
+p  m  pm  g~rg  r    pmd p  p  g  rg  r  
+ 
+bikhri jo zulphen to aisa lagta tha jaise kohre ke peechhe 
+n r g  r  g m d   n  R S  n dp  pm  g  r  n rg  r  g  m
+.                                         .
+
+ek oos main dhula hua phool khila hai jaise 
+dn RSn d    S  n  dp  m~~dp m  g  r   g  d
+
+badal main ik chaand chhupa hai 
+p p p p~~r gd m~~p p p   g  r
+
+aur jhaank raha hai jaise raat ke parde main 
+g d p    p m g  r   g  d  m~pp m  g rg  d
+
+ekkk savera hai roshan roshan aakhon main
+m~pp p grg  r   r~gg~r r~gg~r r~gg   r
+
+sapnon ka saagar jismain prem sitaron ki 
+n dn   r  r~gg r r gg~~r r~gg r ndn   r  
+.  . 
+
+chaadar jaisae jhalak rahi hai 
+r~~mm g g~mm~g g  m m g rn dn
+                         . ..
+
+lahron lahron baat kare to jaise moti barse
+r gg r r gg r r~gg r n  d  n  r  rggr g ggd
+                     .  .  .
+
+jaise kahin chandi ki paayal goonjey
+d  p  m d   p   m  d  p  m d p   p~r
+
+jaise kahin sheeshe ke jaam girey
+d  p  m d   p   m   d  p  m g m~g
+ 
+aur chhann se he tootey jaise koi chhip ke sitaar bajayee
+g g n      n  n  n~nn   n  r  g r g   m d  m d nR S n n~n 
+                   ..   .                               .
+
+jaise koi chaandni raat main gaye 
+n  r  g r g  m dm  d~nR S    n nS
+.
+
+jaise koi hoole se paas bulaye 
+S  S  S S S~nn  n  r  p g rss
+            ..  .
+ 
+kaisi meethi baatain thee vo kaisi mulakaatein thee vo
+p  d  p  m   p  d    p    m  p  d  p m p  d    p    m
+
+jab maine jaana tha nazron se kaise pighalte hain dil aur 
+p d p  m  p dp  m   p mp   m  g rg  r p  mp  m    g r g r
+
+aarzoo paati hai kaise manzil aur 
+mdpm   gr g  r   p  p  p mg r g r
+
+kaise utarta hai chaand zameen par 
+g  g  gn  n  n   n~~~nn n r~~s n n
+                     .. .      . .
+
+kaise kabhi lagta hai swarg agar hai to bas hai yahin par
+n  r  g r   g gg  g   mdp   mgr  r   r  g r s   n r~s s s 
+.                                               .
+ 
+usne banaya mujhe, aur samjhaya mujhe 
+pdp  m p d  p m    p d p mp  d  p m
+
+hum jo mile hain, hamain aiise hi milna tha 
+p~m d  p p  m     m g    p~md  p  p~mm  g
+
+gul jo khile hain, unhe aiise hi khilna tha 
+p~m d  p  p  m     m g  p~md  p  p~m m  g
+
+janmo ke bandhan, janmo ke rishtey hain
+g  g  g  n  n~~g  g  g  g  d   d   p
+
+jab bhi hum janme to hum yuhin milte hain 
+p   p   m~d p  m  d  p   p p   p~rr  s
+
+kaanon main mere jaise, shahed se ghulne lage
+s  s   s    d d  d  d   S  n d p  m   p  m g
+
+khwaabon ke dar jaise aakhon main khulne lage 
+g~~~ss   s  d d d  d  Snd    p    m   p  m g
+
+khwaabon ki duniya bhi kitni haseen aur kaisi rangeen thee
+n r  g   r  g m d  m   d nR  S n    n n S  S  nd S    S~~n
+.                                                        .
+
+khwaabon ki duniya jo kahne ko thee par kahin bhi nahi thee
+n r  g   r  g m d  m  d nR  S  n    n n S  S  nd  S    S~~p
+.
+ 
+khwaab jo toote mere aakh jo khuli meri hosh jo aaya mujhe
+p~~~dp m  p  d  p m  pdp  m  p  d  p m  p~dp m  p d  p m
+
+maine dekha maine jaana vo jo kabhi aaya tha, nazron pe chhaya tha 
+p  d  p m   p  d  p  m  p  m  p m   grg  r    p mp   m  g~~rg  r
+
+dil main samaaya tha, ja bhi chuka hai aur dil mera hai ab
+p~m p    m g~rg  r    g  g   d  d  d   d d S~d d p  p   md
+ 
+tanhaa tanhaa na to koi armaan hai, na koi tamanna hai
+p pm~g m mg~r g  r  g r grg    r    g  r g r g rg  r
+ 
+aur na koi sapna hai 
+g   r  s n r ss  s
+         .
+
+Stanza 2
+Defaults : s r1 g3 m2 p d1 n3 (See Legend for more details) 
+
+ab jo mere din aur abb jo meri ratain hain
+s  s  s d  d   d d d~S d  d p  p m    g
+
+unmain sirf aansoon hain 
+s s    s  d d  d    d
+
+unmain sirf dard ki ranj ki batain hain 
+d~Sd   d  p p  m d  p  m d  p m    g
+    
+aur pharyaadein hain mera ab bhi koi nahi
+p m g  rg  g    g    m g  g  r   g g g g
+
+main hoon aur khoye hue pyaar ki yaadein hain
+g    r    r s r  r  r r s   s s  r  s    s
+
+main hoon aur khoye hue pyaar ki yaadein hain
+m    g    r s r  r  r r s   s s  r  s    s
+
+main hoon aur khoye hue pyaar ki yaadein hain
+m    g    r s r  r  r r s   s d  r  s    s

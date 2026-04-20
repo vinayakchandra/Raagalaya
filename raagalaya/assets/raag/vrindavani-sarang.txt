@@ -1,0 +1,307 @@
+राग :
+vrindavani-sarang
+
+स्वर:
+गंधार व धैवत वर्ज्य। निषाद दोनों। शेष शुद्ध स्वर।
+
+जाति:
+औढव - औढव
+
+थाट:
+काफी
+
+वादी:
+रिषभ
+
+संवादी:
+पंचम
+
+समय:
+मध्यान्ह
+
+विश्रांति स्थान:
+सा; रे; प; नि; - सा'; प; रे;
+
+मुख्य अंग:
+रे म ; प रे ; म रे ,नि सा ; म प ,नि१ प म रे ,नि सा ;
+
+आरोह:
+सा रे म प नि सा' 
+
+अवरोह:
+ सा' नि१ प म रे सा ;
+
+समप्रकृति राग:
+देस , मध्यमाद सारंग
+
+आलाप:
+S 'N RS | 'P 'N S -, RS 'n'P 'NS |
+'NS Rm R, RmRS 'NS | 'NSRmR RmP mP, mR 'NRS |
+RmP mP nP, mnPmR 'NRS |
+RmPn mPN - S'nPmR, mPnP mR 'NS | mP N - NS' -, NS'nP, mPS'nP mR 'NS |
+mPnP N S' NR'S' | mPNS'R' NS'R'NS' nP mR 'NS |
+mPNS' - R'm'R' NR'S' -, NS'R'm'R'S'nP mPS'-nP, mnPmR, RPmR 'NRS |
+NS'R'm'R' R'm'P'm'R', R'P'm'R' S'm'R'S' nP mPN S' | S'NR'S' n-P, mPnP m-R, RnPmRm R, mR'NS |
+'NSRmRS'NS, RmPnPmRm, PNS'R'S'nPN, S'R'm'P'm'R'S'-, nPmnPmRS |
+
+SARGAM GEET:
+<table style="float: left;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td colspan="17">स्थाई:</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>.नि</td>
+<td>सा</td>
+<td>रे</td>
+<td>म</td>
+<td>प</td>
+<td>-</td>
+<td>प</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>म</td>
+<td>-</td>
+<td>प</td>
+<td>-</td>
+<td>२</td>
+</tr>
+<tr>
+<td>म</td>
+<td>प</td>
+<td>नि</td>
+<td>सां</td>
+<td>रे</td>
+<td>-</td>
+<td>नि</td>
+<td>सां</td>
+<td>प</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>म</td>
+<td>प</td>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="17">अंतरा:</td>
+</tr>
+<tr>
+<td>म</td>
+<td>म</td>
+<td>प</td>
+<td>प</td>
+<td>नि</td>
+<td>नि</td>
+<td>सां</td>
+<td>-</td>
+<td>रें</td>
+<td>मं</td>
+<td>रें</td>
+<td>सां</td>
+<td>नि</td>
+<td>नि</td>
+<td>सां</td>
+<td>-</td>
+<td>२</td>
+</tr>
+<tr>
+<td>मं</td>
+<td>रें</td>
+<td>सां</td>
+<td>नि</td>
+<td>रें</td>
+<td>सां</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>प</td>
+<td>सां</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>प</td>
+<td>म</td>
+<td>प</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>२</td>
+</tr>
+<tr>
+<td>.नि</td>
+<td>सा</td>
+<td>रे</td>
+<td>म</td>
+<td>प</td>
+<td>नि</td>
+<td>सां</td>
+<td>रें</td>
+<td>सां</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>प</td>
+<td>म</td>
+<td>प</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>२</td>
+</tr>
+<tr>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>.नि</td>
+<td>सा</td>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>.नि</td>
+<td>सा</td>
+<td>रे</td>
+<td>म</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>रे</td>
+<td>म</td>
+<td>रे</td>
+<td>सा</td>
+<td>.नि</td>
+<td>सा</td>
+<td>रे</td>
+<td>म</td>
+<td>प</td>
+<td>-</td>
+<td>प</td>
+<td><span style="text-decoration: underline;">नि</span></td>
+<td>म</td>
+<td>-</td>
+<td>प</td>
+<td>-</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+SARGAM GEET table:
+ स्थाई
+ P - P M | P n P M | R M P M | R M R S |
+ M R M P | M P n P | S. n P M | R M R S |
+ X - - - | 2 - - - | 0 - - - | 3 - - -
+अंतरा
+ M P N N | S. - N S. | N S. R. - | M. R. S. - |
+ S. R. S. N | S. n P M | P n P M | R M R S |
+ X - - - | 2 - - - | 0 - - - | 3 - - -
+ 
+बंदिश table:
+Sthayi 
+S' 	S' 	S',R' 	S',n 	P,n 	P,m 	R 	S 	m 	R 	P 	m 	P 	= 	= 	= 
+ब 	न 	ब,ऽ 	न,ऽ 	ढूं,ऽ 	ऽ,ऽ 	ढ 	न 	जा 	ऽ 	ऽ 	ऽ 	ऊँ 	ऽ 	ऽ 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+m 	P 	S',R' 	N,S' 	n 	n 	P,m 	P 	R 	m 	n 	P,m 	R 	= 	S 	= 
+कि 	त 	हुँ,ऽ 	ऽ,ऽ 	छु 	प 	ग,ऽ 	ये 	कृ 	ऽ 	ष्ण 	मु,ऽ 	रा 	ऽ 	री 	ऽ। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+
+Antara 
+m 	= 	P 	P 	P,n 	P 	N 	N 	S' 	S' 	S' 	S' 	N 	S' 	S' 	S' 
+सी 	ऽ 	स 	मु 	कु,ऽ 	ट 	औ 	र 	का 	ऽ 	न 	न 	कुं 	ऽ 	ड 	ल। 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+N 	S' 	R' 	= 	m' 	R' 	S' 	S' 	N 	S' 	R' 	S' 	N 	S' 	n 	P 
+ब 	ऽ 	न्सी 	ऽ 	ध 	र 	म 	न 	रं 	ऽ 	ग 	फि 	र 	त 	गि 	रि 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+m,P 	N,S' 	R',m' 	R',S' 	N,S' 	R',S' 	n,P 	m,P 	 	 	 	 	 	 	 	 
+धा,ऽ 	ऽ,ऽ 	ऽ,ऽ 	ऽ,ऽ 	ऽ,ऽ 	ऽ,ऽ 	री,ऽ 	ऽ,ऽ। 	 	 	 	 	 	 	 	 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 	2 	3 	4 	5 	6 	7 	8 
+ 
+ बंदिश table:
+ स्थाई
+  n PM R S | R - - S | .N S R S | R - R - |
+  MU RA LI - | KA - - NH | A DHA R BA | JA - I - |
+  0 - - - | 3 - - - | X - - - | 2 - - -
+  .n .P .N S | R R S S | R M Pn PM | R - S - |
+  GO - PI GWA | - L SA B | A T HA R | SHA - I - |
+अंतरा
+  M P N N | N S. S. S. | N S. R. S. | N S. n P |
+  JA MU NA - | TA T PA R | DHE - NU CHA | RA - VA T |
+ 0 - - - | 3 - - - | X - - - | 2 - - -
+  NS. R.M. R. S. | N S. n P | n P M P | R M R S |
+  RI - JHA T | SA B NA R | NA - RI KA | NHA - I - |
+
+ALAP STHAI : AFTER - MURALI KANH ……… table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - -
+1. S R M - | R - S - | P - M - | R M R S |
+2. SR MP n - | P - - - | nn PM P - | M R S - |
+
+SARGAM STHAI: AFTER - MURALI KANH ……… table:
+ SR MP n - | nP Mn P - | PM RP M - | M R S - |
+0 - - - | 3 - - - | X - - - | 2 - - -
+
+TAANE STHAI table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - -
+1. MU RA LI - | KA - - NH | MP nM Pn MP | nn PM RM RS |
+2. MU RA LI - | KA - - NH | MP nP NS. R.S. | S.n PM RM RS |
+3. MU RA LI - | KA - - NH | MP nS. R.M. R.S. | S.n PM RM RS |
+4. MU RA LI - | SR M RM P | MP n PN S. | S.n PM RM RS |
+5. MM RS PP MR | nn PM S.S. nP | R.R. S.n M.M. R.S. | S.n PM RM RS |
+
+ALAP ANTARA : AFTER – JAMUNA TAT PAR …… table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - -
+1. M P N - | S. - - - | R. n D P | M P N S. |
+2. N S. R. - | M. G. R. - | S. n D P | M P N S. |
+
+TAANE ANTARA table:
+ - 0 - - - | 3 - - - | X - - - | 2 - - -
+1. JA MU NA - | TA T PA R | PN S. PN S. | S.n PM RM RS |
+2. JA MU NA - | TA T PA R | PN S. S.R. S. | S.n PM RM RS |
+3. JA MU NA - | TA T PA R | PN S. M.R. S. | S.n PM RM RS |
+4. JA MU NA - | M.R. S. R.S. n | S.n P nP M | PM R MR S |
+5. RM P MR S | PN S. S.n P | NS. R. M.R. S. | S.n PM RM RS |
+
+ बंदिश table:
+Sthayi 
+n/2,P,m 	R,S 	R 	= 	S 	N.,S 	R 	m,P 	R 	= 	m 	P 
+का,ऽ,ऽ 	हे,ऽ 	हो 	ऽ 	तु 	म,ऽ 	की 	ऽ,ऽ 	न्हीं 	ऽ 	ह 	म 
+11 	12 	1(x) 	2 	3 	4 	5 	6 	7 	8 	9 	10 
+ 
+n,P 	N 	S' 	=,S'/8,R'/8,N/8,S'/8 	n 	P 	R 	m 	P,m 	R 	S 	=,S 
+स,ऽ 	न 	इ 	ऽ,ऽ,ऽ,ऽ,त 	नी 	ऽ 	नि 	ठु 	ऽ,ऽ 	रा 	ई 	ऽ,ऽ।। 
+11 	12 	1(x) 	2 	3 	4 	5 	6 	7 	8 	9 	10 
+ 
+
+Antara 
+m,P 	n,P,N/2 	S' 	S',S' 	N 	S' 	R' 	m',R' 	S' 	N,S' 	n 	P 
+औ,ऽ 	र,ऽ,न 	के 	सं,ग 	र 	ह 	त 	रा,ऽ 	ऽ 	म,रं 	ग 	ऽ। 
+11 	12 	1(x) 	2 	3 	4 	5 	6 	7 	8 	9 	10 
+ 
+m,R 	m,P 	P 	= 	m,P 	N,S' 	n 	P 	P/2,P,N,m,P 	m 	R 	S 
+मे,ऽ 	ऽ,ऽ 	रो 	ऽ 	सु,ध 	दी,ऽ 	न्ही 	ऽ 	बि,स,ऽ,ऽ,ऽ 	रा 	ऽ 	ई।। 
+11 	12 	1(x) 	2 	3 	4 	5 	6 	7 	8 	9 	10 

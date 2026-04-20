@@ -1,0 +1,153 @@
+राग :
+yaman
+
+स्वर:
+मध्यम तीव्र। शेष शुद्ध स्वर।
+
+जाति:
+सम्पूर्ण - सम्पूर्ण
+
+थाट:
+कल्याण
+
+वादी:
+गंधार
+
+संवादी:
+निषाद
+
+समय:
+रात्रि का प्रथम प्रहर
+
+Mood:
+Romance
+
+विश्रांति स्थान:
+सा; ग; नि; - सा'; नि; प; ग;
+
+मुख्य अंग:
+,नि रे ग ; ,नि रे म् ग ; म् प ; म् ध प नि ध प म् रे ग रे ; ,नि रे ,ध ,नि सा;
+
+आरोह:
+,नि रे सा ; ,नि रे ग म् प ध नि सा' 
+
+अवरोह:
+ सा' नि ध प म् ग रे सा ; ,नि रे सा ;
+
+समप्रकृति राग:
+यमन कल्याण
+
+आलाप:
+1. .n.d.nRGr.n.dS.n ---- .n^GRG---
+2. .n.d.nRGMRM'---G----
+3. MP^GR---.n.d.nRGR.nS----
+4 PMG---MNDNDP---DM----S'NDPM^GRM----G----
+5 MDNDN------NRGRSN--S'----NDS'NDNDP----
+	DMPGMRMg---
+6 .n.d..nRGMDNS'NDPMGR.nRS-----
+
+सा, 'नीरे सा, 'नी'ध'नीरेसा, 'नीरेग रे'नीरेसा |
+'नी'ध'नी 'धसा'नी 'ध'नीरे 'नी'ध सा - |
+'ध'नीरेसा'नी 'ध'नी 'ध 'प -, 'म॑'ध'नी 'ध'नीरे 'नी'ध सा - |
+'नीरेग रेग 'नीरे 'नीग गरेसा'नी रेग 'नीरेसा |
+'ध'नी 'ध'नीरे 'नीरे 'नीरेग रेग रेगम॑ ग, म॑रेग गरे 'नीरेसा |
+सा'नी'ध'नी गरे'नीरे म॑गरेम॑ ग म॑रेग गम॑प गरे सा |
+'नीरेगम॑ प म॑गप पम॑रेग रेगम॑ध प म॑गरे 'नीरेसा |
+गम॑धनी म॑धनी, नीधप, म॑धनीधप पम॑रेग 'नीरेसा |
+गरे'नीरेग पम॑रेगप नीधम॑धनी नीधप गरे सा |
+'नीरेगम॑ धनीसा' सा' नीधसा' -, नीधम॑ग म॑नीधनीसा' नीधप म॑रेग 'नीरेसा |
+पम॑गम॑ धनीसा'- धनीरे'सा' - , सा'नीरे'सा' नी नीधप गरे सा |
+म॑धनीसा' सा'नीधनीरे' नीधसा' -, नीरे'ग' ग'रे' नीरे'सा' - |
+नीरे'ग'म॑' रे'म॑'ग' म॑'ग' प' ग'रे' सा' |
+सा'नीधनी धप - , म॑धनीधप पम॑रेग 'नीरेगम॑प गरे गरे, 'नी'ध'नीरेग 'नीरेसा |
+
+Teentaal Swarmalika(16 Matra) table:
+NDPM | PG–M | P––– | PMGR
+NRGR | GMPD | PMGR | GRS–
+NRGM | DNR’G’ | R’S’ND | PMGM
+
+ANTRA
+GGPD | PS’–S’ | N’R’G’R’ | S’NDP
+G’R’S’N | DPND | PMGR | GRS–
+NRGM | DNR’G’ | R’S’ND | PMGM
+
+Teentaal Swarmalika(16 Matra) table:
+
+NDPM | PGMD | P–R– | GRS–
+NRGR | NRS– | MDND | MDP–
+NR’G’R’ | NR’S’– | DNDP | MR–S
+GMDS’ | –SSS’ | ND–N | R–S–
+NRGN | –RD– | NM–D | NDP–
+GR–G | MDNS | NDPM | GRS-
+
+बंदिश table:
+स्थाई
+D_N D 	P 	= 	R 	= 	S 	S 	G 	R 	G 	G 	= 	= 	G 	P
+ए 	ऽ 	री 	ऽ 	आ 	ऽ 	लि 	ऽ 	पि 	या 	बि 	न 	ऽ 	ऽ 	स 	खि । 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 2 	3 	4 	5 	6 	7 	8 
+ 
+G 	P 	G 	P 	M 	D 	P 	P 	N 	D 	P 	M 	R 	G_R S 	S 
+क 	ल 	ना 	प 	र 	त 	मो 	हे 	घ 	डि 	प 	ल 	छि 	न 	दि 	न । 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 2 	3 	4 	5 	6 	7 	8 
+ 
+अंतरा
+P 	P 	S' 	S' 	S' 	= 	S' 	S' 	S' 	= 	S' 	D 	N 	R' 	S' 	S'
+ज 	ब 	ते 	पि 	या 	ऽ 	प 	र 	दे 	ऽ 	स 	ग 	व 	न 	कि 	नो । 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 2 	3 	4 	5 	6 	7 	8 
+ 
+N 	R' 	G' 	R' 	S' 	N 	P 	P 	N 	= 	P,D,M,P = 	R 	R 	S 	S 
+र 	ति 	या 	क 	ट 	त 	मो 	हे 	ता 	ऽ 	रे,ऽ,ऽ,ऽ 	ऽ 	गि 	न 	गि 	न । 
+9 	10 	11 	12 	13 	14 	15 	16 	1(x) 2 	3 		4 	5 	6 	7 	8
+
+बंदिश table:
+स्थाई
+नि प  - रे  - स  ग रे  ग  -  - गम   प म' प प
+तो री ऽ रे ऽ बां सु री या ऽ ऽ जाऽ ऽ दू भ री
+पि या $ की $ न ज रि या $ ऽ जाऽ ऽ दू भ री
+
+प  प प प  म' म' ग रे निरे गम प रे ग रे निरे स
+मो ऽ ह लि यो ऽ म न प्रेऽ ऽऽ ऽ ऽ ऽ म भऽ री
+
+
+अंतरा
+प प सं सं सं सं सं सं सं सं नि ध नि ध प -
+बि स र ग ई ऽ सु ध सु न मु र ली ऽ को ऽ
+क व न ज त $ न अ ब क रि ए री $ आ ली
+
+प म' ग प रे -   स स निरे गम' प रे ग रे निरे स
+ना ऽ ही प रे ऽ मो हे चैऽ ऽऽ ऽ न इ क घऽ री
+
+आलाप table:
+pi ya - ki - na za ri ya - - - s - .n -
+.d - - - .n - - - .d - - - .m .d .n s
+
+pi ya - ki - na za ri ya - - - s .n r - 
+s - .n r g - - - r g - r .n r s - 
+
+pi ya - ki - na za ri ya - - - s - .n r
+g - - - m - r g p - - - m g r s 
+
+pi ya - ki - na za ri ya - - - .nr gm p - 
+md nd p - m d m g r - .n r s .n r s
+
+pi ya - ki - na za ri ya - - - .n r g r 
+s - .n r g m d n p - m d p - mg rs
+
+pi ya - ki - na za ri ya - - - .nr gm dn s'
+n r' s' - nn dp md ns' n - d p mg rs nr s
+
+तान table:
+pi ya - ki - na za ri .nr gm pm gr pm gr .nr s
+pi ya - ki - na za ri .nr gm dn s'r' s'n dp mg rs
+pi ya - ki - na za ri pm gm pd pm gm pm gr s
+pi ya - ki - na za ri nn dp mg rs .n r gm dn s'
+pi ya - ki - na za ri .r gm rg mp gm pm gr s
+pi ya - ki - na za ri gg rs nr s nn dp mg rs
+
+pi ya - ki - na za ri ya - - ja - du bha ri
+gg rs .nr gm pd pm gr s nn dp md ns' nd pm gr s
+pd nd pm gm pm gr gr s dn s' nd ns' nd pm gr s
+gm pg mp mp gm pm gr s dn s'd ns' ns' nd pm gr s
+
+pi ya - ki - na za ri pi ya - ki - na za ri
+pi ya - ki - na za ri ya

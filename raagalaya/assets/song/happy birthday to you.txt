@@ -1,0 +1,39 @@
+notation:
+s   s         r   s           m      g
+Happy  Birthday   to    You
+
+s   s         r   s          p    m
+
+Happy  Birthday  to    You
+s   s        s*  d        m     g   r
+
+Happy  Birthday Dear (_ _)
+s   s     s*  d     m m   g   r
+
+N N         d m         p    m
+Happy  Birthday  to  You
+
+s         r~  s   m       g
+May  God   Bless You
+
+s         r~  s    p       m
+May  God    Bless You
+
+s          s*  d m   g     r
+May   God      Bless You
+
+N N       d m         p    m
+Happy  Birthday  to  You
+
+s   s         r   s           m      g
+Happy  Birthday   to    You
+
+s   s         r   s           p    m
+Happy  Birthday  to    You
+
+s   s        s*  d      m     g   r
+Happy  Birthday Dear (_ _)
+s   s        s*  d      m m   g   r
+
+N N        d m          p    m
+Happy  Birthday  to  You

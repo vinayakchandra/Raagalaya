@@ -1,0 +1,67 @@
+notation:
+<pre>
+Kabhi raam    banke    Kabhi shaam  banke
+S  S  .D S S  R R g g  S S   .D S S R R g g
+
+Kabhi raam    banke   Kabhi  shaam  banke
+S  S  .D S S  R R g g S S    .D S S R R g g
+
+Chale  aana      prabhu   ji
+R R    S R S .n  .n .n     S
+
+Chale  aana
+R g    R S S
+
+Kabhi  raam    banke    Kabhi  shaam  banke
+S  S   .D S S  R R g g  S S    .D S S R R g g
+
+Kabhi raam   banke   Kabhi  shaam  banke
+S  S  .D S S R R g g S S    .D S S R R g g
+
+Chale  aana     prabhu   ji
+R R    S R S .n .n .n     S
+
+Chale  aana
+R g    R S S
+
+Tum  raam    roop   mein aana
+P P  P D M   M G R  R g  R R S S
+Tum  raam   roop   mein  aana
+P P  P D M  M G R  R g   R R S S
+
+Sita  saath   leke
+S S   .D S S  R R g g
+
+Dhanush  hath    leke
+S S      .D S S  R R g g
+
+Chale aana     prabhu   ji
+R R   S R S .n .n .n     S
+
+Chale aana
+R g   R S S
+
+Tum sham roop mein aana
+
+Tum sham roop mein aana
+
+Radha saath leke
+
+Murli hath leke
+
+Chale aana prabhu ji
+
+Chale aana
+
+Tum shiv roop mein aana
+
+Tum shiv roop mein aana
+
+Gouri saath leke
+
+Damru hath leke
+
+Chale aana prabhu ji
+
+Chale aana
+</pre>

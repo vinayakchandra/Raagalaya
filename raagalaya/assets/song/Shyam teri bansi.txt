@@ -1,0 +1,128 @@
+Notation:
+Prelude (Flute & Sitar)
+
+FLUTE PART:
+R… MGMG… R GM
+PDn DPD… PDPM
+DPn DPP… PDPM
+
+SITAR PART:
+MP GRS nSSn n
+SR MPMGM
+
+FLUTE PART:
+MP MPMP GM…
+GM GMGM RG… R…
+
+SONG:
+Shyam | Teri | Bansi…
+MP | DD | DD…
+
+FLUTE:
+SnSn DPD
+
+Pukare | Radha | Naam…
+D Dn…DnDP | DnD DP |PDPDnS.. SnS nDPD PDPM
+
+FLUTE:
+DSD PDR… SnRS nDSn DP M
+
+Shyam | Teri | Bansi…
+GM | PDPMGM | PD DD… {nDPD nDPD} SNS nDD
+
+Pukare | Radha | Naam…
+S’S’R’.. | D Sg R | DP PM.. GMGR
+
+Log | kare | mira ko
+RG | MM | P G R
+
+Yun hi | badanaam
+S n | S RR
+
+Shyaam | teri | bansi
+M P | D D | D D
+
+Pukaare | radha | naam
+DDn | DP | PD PMP
+
+Shyaam | teri | bansi
+D Sn | Sn | DD
+
+Pukaare | radha | naam
+DDn | DP | PM GM R
+
+Log | kare | mira ko
+R G | MM | P G R
+
+Yun hi | badanaam
+S n | S R R
+
+Saanvare | ki | bansi | ko
+M P D | D | DD | D
+
+Bajane | se | kaam
+Dn DP | S’| D M P
+
+Saanvare | ki | bansi | ko
+D SnSn | D | D D | D
+
+Bajane | se | kaam
+D D R | nD | P M GMR
+
+Radha | kaa | bhi | shyaam | Wo to
+R RR | M | M | P M | G R
+
+mira | kaa | bhi | shyaam
+Sn | S | R | R
+
+Radha | kaa | bhi | shyaam
+
+Wo to | mira | kaa | bhi | shyaam
+
+O….O O..
+R’… {SRSNSR}
+
+Jamunaa | ki | lahare
+R R | R | gR gR gR
+
+Bansibat | ki | chhaiyaa
+RS N D | D | {DNSNS}
+
+Kisakaa | nahi | hai | kaho
+ND DS | S S | S | R RR
+
+Krishan | kanhaiyaa
+gR Sn | n D DD
+
+FLUTE:
+{RMGRGM}… GRS RSn SnD
+
+Jamunaa | ki | lahare
+R R R | R | Rg Rg RgR
+
+Bansibat | ki | chhaiyaa
+R SN ND | D | {DNSNS}
+
+Kisakaa | nahi | hai | kaho
+ND DS | S S | S | R RR
+
+Krishan | kanhaiyaa
+gR Sn | n D DD…PDPM
+
+Shyaam | kaa | divaanaa To
+M P | D | D D D
+
+sara | brij | dhaam
+Dn | D P | P DPMP
+
+Shyaam | kaa | divaanaa To
+D SN S | n | D D R
+
+sara | brij | dhaam
+S R S | nD P | P M GMR
+
+Log | kare | mira ko
+R G | MM | P G R
+
+Yun hi | badanaam
+S n | S R R

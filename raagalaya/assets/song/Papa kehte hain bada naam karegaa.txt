@@ -1,0 +1,88 @@
+Raga : Shankarabharana
+Prelude
+sgdp d r s r ds
+                         gg mm g
+ppdsdp d r s r ds
+                         gg m g
+
+pm pm pm pm pm pd dnp
+mg mg mg mg mg gmp
+
+p dp dp
+d ddp dp
+p dp dp
+n gmpdp
+
+sgdp d r s r ds
+                         gg mm g
+ppdsdp d r s r ds
+                         gg m g
+
+Papa kehte hain bada naam karega
+G G  R  S  R    p d  S  S M G R
+                                ppdp
+
+Beta hamara aisa kaam karega
+G G  R S R  p d  S  S M G R
+
+Magar yeh to koi na jaane
+p d n S   S  S S n  d  d
+
+Ki meri manzil hai kahan
+d  d p  m  m   g   m p
+                          || Papa kehte hain bada naam karega 
+
+Interlude
+pg pg mp dm
+ddp dpdS n d p m
+Repeat above two lines again
+
+gmpn dp dpm
+rgmd pm pmg 
+Repeat above two lines again
+
+p d m p
+
+Baithe hain milke sab yaar apne
+p  p   p    p dp  p p p  p pdp
+
+Sabke dilon mein armaan yeh hai
+S  S  n d   d    n d    n   S
+
+Interlude
+ppp ddd mmm ppp
+
+Baithe hain milke sab yaar apne
+p  p   p    p dp  p p p  p pdp
+
+Sabke dilon mein armaan yeh hai
+S  S  n d   d    n d    n   S
+
+Wo zindagi mein kal kya banega
+p  p  p pd p    p   p   p pdp
+
+Har ek nazar ka sapna yeh hai
+S   S  n d   d  n d   n   S R G
+
+Koi engineer ka kaam karega
+G G R S R  p d  S  S M G R
+
+Business mein koi apna naam karega
+G   G    R    S R p d  S  S M G R
+
+Magar yeh to koi na jaane
+p d n S   S  S S n  d  d
+
+Ki meri manzil hai kahan
+d  d p  m  m   g   m p     || Papa kehte hain bada naam karega 
+
+Notes for below stanza same as above stanza
+
+Mera to sapna hai ek chehra
+Dekhe jo usko jhoome bahar
+Gaalon mein khilti kaliyon ka mausam
+Aankhon mein jaadu honthon mein pyaar
+Banda ye khoobsurat kaam karega
+Dil ki duniya mein apna naam karega
+Meri nazar se dekho to yaaron
+Ki meri manzil hai kahan  || Papa kehte hain bada naam karega
