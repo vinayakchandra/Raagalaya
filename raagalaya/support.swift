@@ -148,19 +148,30 @@ enum CSVParser {
 enum NotationParser {
   static func renderHTML(from text: String) -> String {
     var rows: [String] = []
+    var didRenderSection = false
+
     text.components(separatedBy: .newlines).forEach { line in
-      if line.hasSuffix(":") {
-        rows.append("<h3>\(escapeHTML(String(line.dropLast())))</h3>")
+      let trimmed = line.trimmingCharacters(in: .whitespacesAndNewlines)
+      guard !trimmed.isEmpty else { return }
+
+      if trimmed.hasSuffix(":") {
+        let title = String(trimmed.dropLast())
+        if didRenderSection {
+          rows.append("<hr>")
+        }
+        rows.append("<h3>\(escapeHTML(title))</h3>")
+        didRenderSection = true
       } else {
-        rows.append("<pre>\(escapeHTML(line))</pre>")
+        rows.append("<pre>\(escapeHTML(trimmed))</pre>")
       }
     }
+
     return """
       <html>
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <style>
-            body { background: #fffdf6; color: #2f2720; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; padding: 18px; line-height: 1.45; }
+            body { background: #fffdf6; color: #2f2720; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; padding: 18px 18px calc(120px + env(safe-area-inset-bottom)) 18px; line-height: 1.45; }
             h3 { margin: 14px 0 6px; font-size: 17px; color: #7a3e17; }
             pre { white-space: pre-wrap; font-family: 'SF Mono', Menlo, monospace; background: #fff7e6; border: 1px solid #f0d8aa; border-radius: 10px; padding: 11px 12px; margin: 7px 0; font-size: 14px; }
             hr { border: 0; border-top: 1px solid #ecd8b4; margin: 14px 0; }
@@ -172,7 +183,7 @@ enum NotationParser {
             }
           </style>
         </head>
-        <body>\(rows.joined(separator: "<hr>"))</body>
+        <body>\(rows.joined())</body>
       </html>
       """
   }

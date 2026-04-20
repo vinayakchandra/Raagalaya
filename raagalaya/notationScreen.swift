@@ -11,6 +11,7 @@ struct NotationScreen: View {
     WebView(html: NotationFileReader.loadAsset(fileName: fileName, tabName: tabName))
       .navigationTitle(displayName)
       .navigationBarTitleDisplayMode(.inline)
+      .toolbar(.hidden, for: .tabBar)
   }
 
   private var displayName: String {
@@ -30,6 +31,7 @@ struct WebView: UIViewRepresentable {
     webView.isOpaque = false
     webView.backgroundColor = .clear
     webView.scrollView.backgroundColor = .clear
+    webView.scrollView.contentInsetAdjustmentBehavior = .always
     return webView
   }
 
