@@ -13,6 +13,9 @@ struct RootView: View {
 
       NavigationStack { SongScreen(state: state) }
         .tabItem { Label("Song", systemImage: "text.book.closed") }
+
+      NavigationStack { DiscoverScreen(state: state) }
+        .tabItem { Label("Discover", systemImage: "sparkles") }
     }
     .tint(AppTheme.accent)
     .environmentObject(state)

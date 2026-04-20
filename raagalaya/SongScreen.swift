@@ -3,13 +3,11 @@ import SwiftUI
 struct SongScreen: View {
   @ObservedObject var state: AppState
   @State private var selectedGroup = "All"
-  @State private var showFavorites = false
-  @State private var showRecents = false
   @State private var spotlightMode: SongSpotlightMode = .all
   @Namespace private var tileAnimation
 
   var body: some View {
-    ZStack(alignment: .bottom) {
+    ZStack {
       AppTheme.pageGradient.ignoresSafeArea()
       AppDecorativeBackground()
 
@@ -45,30 +43,14 @@ struct SongScreen: View {
         }
         .padding(.horizontal, 14)
         .padding(.top, 8)
-        .padding(.bottom, 90)
+        .padding(.bottom, 20)
         .animation(.spring(response: 0.34, dampingFraction: 0.84), value: filteredEntries.count)
       }
-
-      QuickActionDock(
-        favoritesAction: { showFavorites = true },
-        recentsAction: { showRecents = true },
-        toggleViewAction: { cycleSpotlightMode() }
-      )
-      .padding(.horizontal, 14)
-      .padding(.bottom, 10)
     }
     .navigationTitle("Song Notebook")
     .searchable(text: $state.songFilter, prompt: "Search song, film, or raag")
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarBackground(AppTheme.backgroundTop.opacity(0.65), for: .navigationBar)
-    .sheet(isPresented: $showFavorites) {
-      FavoritesSheetView(tab: "song")
-        .environmentObject(state)
-    }
-    .sheet(isPresented: $showRecents) {
-      RecentsSheetView()
-        .environmentObject(state)
-    }
     .onChange(of: state.songFilter) { _, _ in selectedGroup = "All" }
   }
 
@@ -144,14 +126,6 @@ struct SongScreen: View {
 
   private var groupTitles: [String] {
     ["All"] + availableEntries.map(\.key)
-  }
-
-  private func cycleSpotlightMode() {
-    switch spotlightMode {
-    case .all: spotlightMode = .favorites
-    case .favorites: spotlightMode = .pinned
-    case .pinned: spotlightMode = .all
-    }
   }
 
   private func statPill(_ label: String, _ value: String, icon: String) -> some View {

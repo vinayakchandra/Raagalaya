@@ -12,6 +12,28 @@ struct RecentNotation: Identifiable, Codable, Hashable {
   let openedAt: Date
 }
 
+enum RaagTimeSlot: String {
+  case day1 = "day-1"
+  case day2 = "day-2"
+  case day3 = "day-3"
+  case night1 = "night-1"
+  case night2 = "night-2"
+  case night3 = "night-3"
+  case night4 = "night-4"
+
+  var title: String {
+    switch self {
+    case .day1: return "Dawn"
+    case .day2: return "Morning"
+    case .day3: return "Afternoon"
+    case .night1: return "Evening"
+    case .night2: return "Night"
+    case .night3: return "Late Night"
+    case .night4: return "Pre-Dawn"
+    }
+  }
+}
+
 final class AppState: ObservableObject {
   @Published var raagList: [RaagPojo] = []
   @Published var songList: [SongPojo] = []
@@ -110,6 +132,29 @@ final class AppState: ObservableObject {
     guard !raagList.isEmpty else { return nil }
     let day = Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1
     return raagList[day % raagList.count]
+  }
+
+  var currentTimeSlot: RaagTimeSlot {
+    let hour = Calendar.current.component(.hour, from: Date())
+    switch hour {
+    case 4..<8: return .day1
+    case 8..<12: return .day2
+    case 12..<16: return .day3
+    case 16..<20: return .night1
+    case 20..<24: return .night2
+    case 0..<2: return .night3
+    default: return .night4
+    }
+  }
+
+  var timeOfDayRaags: [RaagPojo] {
+    let key = currentTimeSlot.rawValue
+    let matching = raagList.filter { $0.time.localizedCaseInsensitiveContains(key) }
+      .sorted { $0.name < $1.name }
+    if !matching.isEmpty {
+      return Array(matching.prefix(18))
+    }
+    return Array(raagList.sorted { $0.name < $1.name }.prefix(18))
   }
 
   func isFavorite(raag: RaagPojo) -> Bool {

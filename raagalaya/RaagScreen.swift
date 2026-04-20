@@ -3,14 +3,12 @@ import SwiftUI
 struct RaagScreen: View {
   @ObservedObject var state: AppState
   @State private var selectedGroup = "All"
-  @State private var showFavorites = false
-  @State private var showRecents = false
   @State private var spotlightMode: RaagSpotlightMode = .all
   @State private var selectedHeroRaag: RaagPojo?
   @Namespace private var tileAnimation
 
   var body: some View {
-    ZStack(alignment: .bottom) {
+    ZStack {
       AppTheme.pageGradient.ignoresSafeArea()
       AppDecorativeBackground()
 
@@ -48,30 +46,14 @@ struct RaagScreen: View {
         }
         .padding(.horizontal, 14)
         .padding(.top, 8)
-        .padding(.bottom, 90)
+        .padding(.bottom, 20)
         .animation(.spring(response: 0.34, dampingFraction: 0.84), value: filteredEntries.count)
       }
-
-      QuickActionDock(
-        favoritesAction: { showFavorites = true },
-        recentsAction: { showRecents = true },
-        toggleViewAction: { cycleSpotlightMode() }
-      )
-      .padding(.horizontal, 14)
-      .padding(.bottom, 10)
     }
     .navigationTitle("Raag Library")
     .searchable(text: $state.raagFilter, prompt: "Search raag, thaat, or time")
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarBackground(AppTheme.backgroundTop.opacity(0.65), for: .navigationBar)
-    .sheet(isPresented: $showFavorites) {
-      FavoritesSheetView(tab: "raag")
-        .environmentObject(state)
-    }
-    .sheet(isPresented: $showRecents) {
-      RecentsSheetView()
-        .environmentObject(state)
-    }
     .sheet(item: $selectedHeroRaag) { raag in
       NavigationStack {
       RaagDetailView(raag: raag)
@@ -144,14 +126,6 @@ struct RaagScreen: View {
 
   private var groupTitles: [String] {
     ["All"] + availableEntries.map(\.key)
-  }
-
-  private func cycleSpotlightMode() {
-    switch spotlightMode {
-    case .all: spotlightMode = .favorites
-    case .favorites: spotlightMode = .pinned
-    case .pinned: spotlightMode = .all
-    }
   }
 
   private func statPill(_ label: String, _ value: String, icon: String) -> some View {
