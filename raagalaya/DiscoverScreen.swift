@@ -16,6 +16,12 @@ struct DiscoverScreen: View {
           raagTimeGrid
             .sectionCardStyle()
 
+          samayChakraCard
+            .sectionCardStyle()
+
+          theoryCard
+            .sectionCardStyle()
+
           favoritesCard
             .sectionCardStyle()
 
@@ -75,6 +81,45 @@ struct DiscoverScreen: View {
         }
       }
     }
+  }
+
+  private var samayChakraCard: some View {
+    VStack(alignment: .leading, spacing: 10) {
+      Text("Samay Chakra")
+        .font(.subheadline.weight(.semibold))
+      ForEach(state.samayBuckets) { bucket in
+        if !bucket.raags.isEmpty {
+          VStack(alignment: .leading, spacing: 4) {
+            Text(bucket.slot.title)
+              .font(.caption.weight(.semibold))
+              .foregroundStyle(AppTheme.accent)
+            Text(bucket.raags.prefix(3).map { $0.name.capitalized }.joined(separator: ", "))
+              .font(.caption)
+              .foregroundStyle(.secondary)
+          }
+        }
+      }
+    }
+  }
+
+  private var theoryCard: some View {
+    VStack(alignment: .leading, spacing: 8) {
+      Text("Raag Theory Quick Notes")
+        .font(.subheadline.weight(.semibold))
+      note("Each raag is more than a scale: it has a specific swara behavior and emotional color.")
+      note("Vadi and Samvadi create the raag's center of gravity in alaap and vistaar.")
+      note("Samay (time theory) aligns raag expression with natural voice and listener psychology.")
+      note("Thaat helps classification, but pakad and chalan define true raag identity.")
+    }
+  }
+
+  private func note(_ text: String) -> some View {
+    HStack(alignment: .top, spacing: 6) {
+      Text("•")
+      Text(text)
+    }
+    .font(.caption)
+    .foregroundStyle(.secondary)
   }
 
   private var favoritesCard: some View {

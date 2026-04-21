@@ -12,7 +12,10 @@ struct RaagDetailView: View {
           .contentTransition(.numericText())
 
         detailGrid
+        raagEssenceCard
+        pedagogyCard
         tonalCard
+        relatedRaagsCard
         MiniAudioPalette()
 
         NavigationLink(destination: notationDestination) {
@@ -70,6 +73,85 @@ struct RaagDetailView: View {
       RoundedRectangle(cornerRadius: 14, style: .continuous)
         .stroke(AppTheme.border, lineWidth: 1)
     )
+  }
+
+  private var raagEssenceCard: some View {
+    VStack(alignment: .leading, spacing: 8) {
+      Text("Raag Essence")
+        .font(.headline)
+      Text(state.displayTimeLabel(for: raag))
+        .font(.subheadline.weight(.semibold))
+        .foregroundStyle(AppTheme.accent)
+      Text(state.rasaProfile(for: raag))
+        .font(.subheadline)
+        .foregroundStyle(.secondary)
+    }
+    .padding(12)
+    .background(AppTheme.cardFill, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    .overlay(
+      RoundedRectangle(cornerRadius: 14, style: .continuous)
+        .stroke(AppTheme.border, lineWidth: 1)
+    )
+  }
+
+  private var pedagogyCard: some View {
+    VStack(alignment: .leading, spacing: 8) {
+      Text("Practice Guidance")
+        .font(.headline)
+      bullet(state.movementGuidance(for: raag))
+      bullet(state.noteHierarchySummary(for: raag))
+      bullet(state.voiceCultureTip(for: raag))
+    }
+    .padding(12)
+    .background(AppTheme.cardFill, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    .overlay(
+      RoundedRectangle(cornerRadius: 14, style: .continuous)
+        .stroke(AppTheme.border, lineWidth: 1)
+    )
+  }
+
+  private var relatedRaagsCard: some View {
+    let related = state.relatedRaags(for: raag)
+    return VStack(alignment: .leading, spacing: 8) {
+      Text("Related Raags (Same Thaat)")
+        .font(.headline)
+      if related.isEmpty {
+        Text("No related raags found in this thaat.")
+          .font(.subheadline)
+          .foregroundStyle(.secondary)
+      } else {
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 140), spacing: 8)], spacing: 8) {
+          ForEach(related, id: \.id) { item in
+            NavigationLink(destination: RaagDetailView(raag: item).environmentObject(state)) {
+              Text(item.name.capitalized)
+                .font(.caption.weight(.semibold))
+                .lineLimit(1)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 8)
+                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            }
+            .buttonStyle(.plain)
+          }
+        }
+      }
+    }
+    .padding(12)
+    .background(AppTheme.cardFill, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    .overlay(
+      RoundedRectangle(cornerRadius: 14, style: .continuous)
+        .stroke(AppTheme.border, lineWidth: 1)
+    )
+  }
+
+  private func bullet(_ text: String) -> some View {
+    HStack(alignment: .top, spacing: 6) {
+      Text("•")
+      Text(text)
+        .fixedSize(horizontal: false, vertical: true)
+    }
+    .font(.subheadline)
+    .foregroundStyle(.secondary)
   }
 
   private func infoCard(_ title: String, _ value: String) -> some View {

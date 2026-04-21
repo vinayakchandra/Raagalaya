@@ -34,6 +34,13 @@ enum RaagTimeSlot: String {
   }
 }
 
+struct SamayBucket: Identifiable {
+  let slot: RaagTimeSlot
+  let raags: [RaagPojo]
+
+  var id: String { slot.rawValue }
+}
+
 final class AppState: ObservableObject {
   @Published var raagList: [RaagPojo] = []
   @Published var songList: [SongPojo] = []
@@ -157,6 +164,67 @@ final class AppState: ObservableObject {
     return Array(raagList.sorted { $0.name < $1.name }.prefix(18))
   }
 
+  var samayBuckets: [SamayBucket] {
+    RaagTimeSlot.allCases.map { slot in
+      let matches = raagList
+        .filter { $0.time.localizedCaseInsensitiveContains(slot.rawValue) }
+        .sorted { $0.name < $1.name }
+      return SamayBucket(slot: slot, raags: Array(matches.prefix(6)))
+    }
+  }
+
+  func displayTimeLabel(for raag: RaagPojo) -> String {
+    let key = raag.time.lowercased()
+    if key.contains(RaagTimeSlot.day1.rawValue) { return "Dawn (Pratah Sandhi)" }
+    if key.contains(RaagTimeSlot.day2.rawValue) { return "Morning (Poorvang focus)" }
+    if key.contains(RaagTimeSlot.day3.rawValue) { return "Afternoon (Madhya day)" }
+    if key.contains(RaagTimeSlot.night1.rawValue) { return "Evening (Sandhya)" }
+    if key.contains(RaagTimeSlot.night2.rawValue) { return "Night (Uttarang focus)" }
+    if key.contains(RaagTimeSlot.night3.rawValue) { return "Late Night (Gambhir mood)" }
+    if key.contains(RaagTimeSlot.night4.rawValue) { return "Pre-Dawn (Transition)" }
+    return "Flexible performance window"
+  }
+
+  func rasaProfile(for raag: RaagPojo) -> String {
+    let key = raag.time.lowercased()
+    if key.contains("day-1") || key.contains("day-2") { return "Bhakti and Prashant rasa (serene devotion)." }
+    if key.contains("day-3") { return "Madhur and contemplative rasa (calm introspection)." }
+    if key.contains("night-1") { return "Shringar and romantic evening color." }
+    if key.contains("night-2") { return "Gambhir and lyrical emotional depth." }
+    if key.contains("night-3") || key.contains("night-4") { return "Vairagya and meditative stillness." }
+    return "Balanced emotional color with room for interpretation."
+  }
+
+  func movementGuidance(for raag: RaagPojo) -> String {
+    let aroh = cleaned(raag.tonal1)
+    let avroh = cleaned(raag.tonal2)
+    return "Aroh: \(aroh) • Avroh: \(avroh). Emphasize smooth meend between key swaras."
+  }
+
+  func noteHierarchySummary(for raag: RaagPojo) -> String {
+    let vadi = cleaned(raag.sonant)
+    let samvadi = cleaned(raag.consonant)
+    return "Vadi: \(vadi) • Samvadi: \(samvadi). Land and rest on these swaras during vistaar."
+  }
+
+  func voiceCultureTip(for raag: RaagPojo) -> String {
+    let key = raag.time.lowercased()
+    if key.contains("day") {
+      return "Use open-throat aakar practice with medium laya for clear intonation."
+    }
+    return "Prioritize andolan, kan-swar touch, and sustained breath for depth."
+  }
+
+  func relatedRaags(for raag: RaagPojo, limit: Int = 8) -> [RaagPojo] {
+    let thaat = raag.scale.trimmingCharacters(in: .whitespacesAndNewlines)
+    guard !thaat.isEmpty else { return [] }
+    return raagList
+      .filter { $0.fileName != raag.fileName && $0.scale.compare(thaat, options: .caseInsensitive) == .orderedSame }
+      .sorted { $0.name < $1.name }
+      .prefix(limit)
+      .map { $0 }
+  }
+
   func isFavorite(raag: RaagPojo) -> Bool {
     favoriteRaagFiles.contains(raag.fileName)
   }
@@ -253,4 +321,11 @@ final class AppState: ObservableObject {
       set.insert(value)
     }
   }
+
+  private func cleaned(_ value: String) -> String {
+    let text = value.trimmingCharacters(in: .whitespacesAndNewlines)
+    return text.isEmpty ? "Not specified" : text
+  }
 }
+
+extension RaagTimeSlot: CaseIterable {}
