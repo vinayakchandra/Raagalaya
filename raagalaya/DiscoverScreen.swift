@@ -27,9 +27,6 @@ struct DiscoverScreen: View {
 
           favoritesCard
             .sectionCardStyle()
-
-          recentsCard
-            .sectionCardStyle()
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 8)
@@ -173,28 +170,4 @@ struct DiscoverScreen: View {
     }
   }
 
-  private var recentsCard: some View {
-    VStack(alignment: .leading, spacing: 10) {
-      Text("Recently Opened")
-        .font(.subheadline.weight(.semibold))
-
-      if state.recentNotations.isEmpty {
-        Text("Your recently opened notations will appear here.")
-          .font(.footnote)
-          .foregroundStyle(.secondary)
-      } else {
-        ForEach(Array(state.recentNotations.prefix(8))) { item in
-          NavigationLink(destination: NotationScreen(fileName: item.fileName, tabName: item.tabName)) {
-            VStack(alignment: .leading, spacing: 2) {
-              Text(item.title)
-                .font(.subheadline.weight(.medium))
-              Text(item.openedAt.formatted(date: .abbreviated, time: .shortened))
-                .font(.caption2)
-                .foregroundStyle(.secondary)
-            }
-          }
-        }
-      }
-    }
-  }
 }
