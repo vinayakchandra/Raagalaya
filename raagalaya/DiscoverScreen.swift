@@ -10,6 +10,9 @@ struct DiscoverScreen: View {
 
       ScrollView {
         VStack(alignment: .leading, spacing: 14) {
+          comparisonEntryCard
+            .sectionCardStyle()
+
           timeAwareCard
             .sectionCardStyle()
 
@@ -46,6 +49,26 @@ struct DiscoverScreen: View {
         .font(.footnote)
         .foregroundStyle(.secondary)
     }
+  }
+
+  private var comparisonEntryCard: some View {
+    NavigationLink(destination: RaagComparisonView().environmentObject(state)) {
+      HStack {
+        VStack(alignment: .leading, spacing: 5) {
+          Text("Raag Comparison Mode")
+            .font(.headline)
+            .foregroundStyle(.primary)
+          Text("Compare two raags side-by-side and learn how to avoid confusion.")
+            .font(.subheadline)
+            .foregroundStyle(.secondary)
+        }
+        Spacer()
+        Image(systemName: "arrow.right.circle.fill")
+          .font(.title3)
+          .foregroundStyle(AppTheme.accent)
+      }
+    }
+    .buttonStyle(.plain)
   }
 
   private var raagTimeGrid: some View {

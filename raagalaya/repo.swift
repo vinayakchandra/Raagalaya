@@ -225,6 +225,55 @@ final class AppState: ObservableObject {
       .map { $0 }
   }
 
+  func raag(forFileName fileName: String) -> RaagPojo? {
+    raagList.first { $0.fileName == fileName }
+  }
+
+  func jaatiSummary(for raag: RaagPojo) -> String {
+    let aroh = cleaned(raag.tonal1)
+    let avroh = cleaned(raag.tonal2)
+    return "\(aroh) — \(avroh)"
+  }
+
+  func poorvangUttarangHint(for raag: RaagPojo) -> String {
+    let key = raag.time.lowercased()
+    if key.contains("day-1") || key.contains("day-2") {
+      return "Often rendered with stronger Poorvang (Sa to Ma) emphasis."
+    }
+    if key.contains("night-2") || key.contains("night-3") || key.contains("night-4") {
+      return "Often rendered with stronger Uttarang (Pa to Sa') emphasis."
+    }
+    return "Use balanced Poorvang-Uttarang treatment based on bandish and gharana."
+  }
+
+  func comparisonGuidance(first: RaagPojo, second: RaagPojo) -> [String] {
+    var tips: [String] = []
+
+    if first.scale.compare(second.scale, options: .caseInsensitive) == .orderedSame {
+      tips.append("Both belong to \(cleaned(first.scale)) thaat. Focus on pakad/chalan to avoid confusion.")
+    } else {
+      tips.append("Different thaats: \(cleaned(first.scale)) vs \(cleaned(second.scale)). Prioritize swara-color contrast.")
+    }
+
+    if cleaned(first.sonant) == cleaned(second.sonant) && cleaned(first.sonant) != "Not specified" {
+      tips.append("Shared vadi \(cleaned(first.sonant)); contrast via movement and nyas points.")
+    } else {
+      tips.append("Different vadi-samvadi centers; land on each raag's own resting swaras.")
+    }
+
+    if cleaned(first.time) == cleaned(second.time) {
+      tips.append("Same samay slot; differentiate through andolan, kan-swar, and phrase architecture.")
+    } else {
+      tips.append("Different samay windows suggest different emotional pacing and tonal gravity.")
+    }
+
+    return tips
+  }
+
+  func cleanedForUI(_ value: String) -> String {
+    cleaned(value)
+  }
+
   func isFavorite(raag: RaagPojo) -> Bool {
     favoriteRaagFiles.contains(raag.fileName)
   }
