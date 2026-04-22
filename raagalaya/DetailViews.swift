@@ -16,7 +16,6 @@ struct RaagDetailView: View {
         pedagogyCard
         tonalCard
         relatedRaagsCard
-        MiniAudioPalette()
 
         NavigationLink(destination: notationDestination) {
           Label("Open Notation", systemImage: "music.quarternote.3")
@@ -205,8 +204,6 @@ struct SongDetailView: View {
           infoCard("Film", song.film)
           infoCard("Raag", song.raag)
         }
-
-        MiniAudioPalette()
 
         NavigationLink(destination: notationDestination) {
           Label("Open Song Notation", systemImage: "music.note")

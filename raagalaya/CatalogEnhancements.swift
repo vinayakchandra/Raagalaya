@@ -109,43 +109,6 @@ struct QuickActionDock: View {
   }
 }
 
-struct MiniAudioPalette: View {
-  var body: some View {
-    VStack(alignment: .leading, spacing: 8) {
-      Text("Listening Reference")
-        .font(.subheadline.weight(.semibold))
-      HStack(spacing: 8) {
-        chip("Alaap")
-        chip("Bandish")
-        chip("Taan")
-      }
-      RoundedRectangle(cornerRadius: 6, style: .continuous)
-        .fill(AppTheme.accent.opacity(0.20))
-        .frame(height: 6)
-        .overlay(alignment: .leading) {
-          RoundedRectangle(cornerRadius: 6, style: .continuous)
-            .fill(AppTheme.accent)
-            .frame(width: 80, height: 6)
-        }
-    }
-    .padding(12)
-    .background(AppTheme.cardFill, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-    .overlay(
-      RoundedRectangle(cornerRadius: 14, style: .continuous)
-        .stroke(AppTheme.border, lineWidth: 1)
-    )
-  }
-
-  private func chip(_ label: String) -> some View {
-    Label(label, systemImage: "play.circle.fill")
-      .font(.caption)
-      .foregroundStyle(AppTheme.accent)
-      .padding(.horizontal, 9)
-      .padding(.vertical, 5)
-      .background(AppTheme.accent.opacity(0.13), in: Capsule())
-  }
-}
-
 struct WaveStripes: Shape {
   func path(in rect: CGRect) -> Path {
     var path = Path()
@@ -164,4 +127,3 @@ struct WaveStripes: Shape {
     return path
   }
 }
-
